@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width", initial-scale="1.0">
+<link rel="stylesheet" href="CSS\SlotMachineCSS.css">
+<title>Slot Machine</title>
+</head>
+<body id="body">
+    <navbar class="navbar">
+        <ul class="navlist">
+            <li class="links"><a href="">Home</a></li>
+            <li class="links"><a href="">How To Play</a></li>
+            <li class="links"><a href="">Add Funds</a></li>
+            <li class="links"><a href="">1-800-Gambling</a></li>
+        </ul>
+    </navbar>
+    <section class="flexbox">
+        <div class="item item1">
+        <h1>Casino Slot Machine</h1>
+        <button id="minbet">Min Bet</button>
+        <button id="maxbet">Max Bet</button>
+        </div>
+        <div class="item item2">
+        <table>
+            <tbody>
+              <tr>
+                <td id="totalWinnings">0</td>
+                <td id="balance">1000</td>
+                <td id="currentBet">0</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <th>Total Winnings</th>
+                <th>Current Balance</th>
+                <th>Bet Placed</th>
+              </tr>
+            </tfoot>
+          </table>
+          </div>
+        </section>
+    <section class="item item3">
+        <h2></h2>
+        <div>
+        <button id="spin">Spin</button>
+        </div>
+        <div id="reelOne">Slot 1</div>
+        <div id="reelTwo">Slot 2</div>
+        <div id="reelThree">Slot 3</div>
+    </section>
+    <section>
+      <ul>
+        <li>Select Min or Max Bet</li>
+        <li>Currrent Balance is reduced by bet amount</li>
+        <li>Randomizer will spin 3 wheels</li>
+        <li>If all 3 numbers align, you win</li>
+      </ul>
+    </section>
+        
+        <div></div>
+    <script type="text/javascript" src="Javascript\SlotMachineJS.js"></script>
+</body>
+</html>
